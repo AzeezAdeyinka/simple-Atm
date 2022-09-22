@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="atm.css">
+</head>
+<body>
+    
+    <div class="layer">
+        <div class="layer2">
+           <div>
+           <button class="btn1" onclick="withdraw()">Withdraw</button>
+           <button class="btn2" onclick="checkBalance()">Check Balance</button>
+           <button class="btn3" onclick="bilpayment()">Bill Payment</button>
+           <button class="btn4" onclick="deposit()">Deposit</button>
+           <button class="btn5" onclick="Transfer()">Transfer</button>
+           <button class="btn6" onclick="other()">Other</button>
+            
+           <div class="input">
+               <input type="text" placeholder="Enter Amount" id="userInput">
+               <p id="disp"></p>
+           </div>
+           
+       </div>
+        </div>
+       </div>
+       
+
+
+<script src="atm.js"></script>
+</body>
+</html>
